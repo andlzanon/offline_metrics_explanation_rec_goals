@@ -1,0 +1,83 @@
+@article{LUO2025111496,
+title = {Rank Gap Sensitive Deep AUC maximization for CTR prediction},
+journal = {Pattern Recognition},
+pages = {111496},
+year = {2025},
+issn = {0031-3203},
+doi = {https://doi.org/10.1016/j.patcog.2025.111496},
+url = {https://www.sciencedirect.com/science/article/pii/S0031320325001566},
+author = {Fangyuan Luo and Yankai Chen and Jun Wu and Yidong Li},
+keywords = {Recommender system, Click-Through Rate prediction, Deep neural network, Learning to rank, AUC},
+abstract = {Deep Neural Network (DNN) stands out as one widely adopted and effective technique for Click-Through Rate (CTR) prediction in live recommender systems. However, the prevalent DNN-based CTR methods exhibit two main drawbacks. On one hand, they fail to align their optimization objectives with the benchmark metric, such as the Area Under the ROC Curve (AUC), designed for ranking tasks. On the other hand, current DNN-based CTR solutions indiscriminately treat all positive-negative item pairs, ignoring the fact that each item pair differently contributes to AUC optimization. To this end, we propose Rank Gap Sensitive Deep AUC maximization method for accurate CTR prediction, namely RgsAUC. Specifically, we target AUC as the learning objective by relaxing the Heaviside function via sigmoid function to render it differentiable and thus can be optimized directly using gradient-descent methods, which is the de facto choice for solving DNN-based CTR tasks. Furthermore, we incorporate a rank gap sensitive weight in estimating gradients for items, aiming to assign greater significance to item pairs with substantial rank gaps during the learning process. In particular, we reduce the computational complexity from quadratic to linear through reformulation, enabling efficient deployment. Consequently, these designs sharply minimize the number of erroneously-ranked item pairs, which is beneficial to AUC optimization. Notably, RgsAUC is model-agnostic and we implement it in five classic DNN models for the CTR prediction task. Extensive experiments on six real-world datasets clearly demonstrate the effectiveness of our proposed method.}
+}
+
+@article{ROSENBERGER2025127043,
+title = {CareerBERT: Matching resumes to ESCO jobs in a shared embedding space for generic job recommendations},
+journal = {Expert Systems with Applications},
+pages = {127043},
+year = {2025},
+issn = {0957-4174},
+doi = {https://doi.org/10.1016/j.eswa.2025.127043},
+url = {https://www.sciencedirect.com/science/article/pii/S0957417425006657},
+author = {Julian Rosenberger and Lukas Wolfrum and Sven Weinzierl and Mathias Kraus and Patrick Zschech},
+keywords = {Job consultation, Job markets, Job recommendation system, BERT, NLP},
+abstract = {The rapidly evolving labor market, driven by technological advancements and economic shifts, presents significant challenges for traditional job matching and consultation services. In response, we introduce an advanced support tool for career counselors and job seekers based on CareerBERT, a novel approach that leverages the power of unstructured textual data sources, such as resumes, to provide more accurate and comprehensive job recommendations. In contrast to previous approaches that primarily focus on job recommendations based on a fixed set of concrete job advertisements, our approach involves the creation of a corpus that combines data from the European Skills, Competences, and Occupations (ESCO) taxonomy and EURopean Employment Services (EURES) job advertisements, ensuring an up-to-date and well-defined representation of general job titles in the labor market. Our two-step evaluation approach, consisting of an application-grounded evaluation using EURES job advertisements and a human-grounded evaluation using real-world resumes and Human Resources (HR) expert feedback, provides a comprehensive assessment of CareerBERT’s performance. Our experimental results demonstrate that CareerBERT outperforms both traditional and state-of-the-art embedding approaches while showing robust effectiveness in human expert evaluations. These results confirm the effectiveness of CareerBERT in supporting career consultants by generating relevant job recommendations based on resumes, ultimately enhancing the efficiency of job consultations and expanding the perspectives of job seekers. This research contributes to the field of NLP and job recommendation systems, offering valuable insights for both researchers and practitioners in the domain of career consulting and job matching.}
+}
+
+@article{LIU2025113217,
+title = {Semantic relation-aware graph attention network with noise augmented layer-wise contrastive learning for recommendation},
+journal = {Knowledge-Based Systems},
+volume = {314},
+pages = {113217},
+year = {2025},
+issn = {0950-7051},
+doi = {https://doi.org/10.1016/j.knosys.2025.113217},
+url = {https://www.sciencedirect.com/science/article/pii/S0950705125002643},
+author = {Jianfang Liu and Wei Wang and Baolin Yi and Huanyu Zhang and Xiaoxuan Shen},
+keywords = {Contrastive learning, Semantic relation-aware, Knowledge graph, Noise augmented, Graph attention network, Recommendation},
+abstract = {Recommender systems based on knowledge graphs enhance the explainability of recommendations by incorporating external knowledge. Nevertheless, the accuracy of recommendations heavily depends on dense interaction data and high-quality knowledge graphs, both of which commonly suffer from data sparsity. Introducing graph contrastive learning to enhance representation quality can effectively improve recommendation performance. Existing graph contrastive learning methods that use graph augmentation can alleviate the data sparsity problem. However, they often neglect the semantic modeling of relation embeddings and lack sufficient contrastive information, leading to insufficient utilization of the embedding space for relations and nodes. To address this, we propose a semantic relation-aware graph attention network with a noise augmented layer-wise contrastive learning model for recommendation, named SRGAN. Specifically, we design a semantic relation-aware graph attention network that updates the semantics of relations during multi-layer iterations to better capture user preferences. Additionally, we construct a noise-augmented layer-wise contrastive learning model, employing simple yet effective noise perturbations to generate contrastive views for entities and relations. By maximizing the consistency of the representations in each layer, the model achieves alignment with the lower-level features of the intermediate layers. Extensive experiments on three public benchmark datasets demonstrate that our proposed method significantly outperforms current approaches. To ensure reproducibility, we make the code and data from our experiments publicly available on https://github.com/liujianfang2021/SRGAN.}
+}
+
+@article{LAI2025105888,
+title = {Advanced graph embedding for intelligent heating, ventilation, and air conditioning optimization: An ensemble learning-based recommender system},
+journal = {Case Studies in Thermal Engineering},
+volume = {68},
+pages = {105888},
+year = {2025},
+issn = {2214-157X},
+doi = {https://doi.org/10.1016/j.csite.2025.105888},
+url = {https://www.sciencedirect.com/science/article/pii/S2214157X25001480},
+author = {Shouliang Lai and Xiyu Yi and Peiling Zhou and Lu Peng and Wentao Liu and Shi Sun and Binrong Huang},
+keywords = {Graph embedding, HVAC optimization, Ensemble learning, Recommender systems, Smart buildings},
+abstract = {This study introduces a robust and scalable software architecture designed for real-time data ingestion, processing, and user interaction within a smart building setting. Utilizing advanced graph embedding techniques combined with ensemble learning models, we developed a recommender system tailored for Heating, Ventilation, and Air Conditioning (HVAC) optimization in Shenzhen Qianhai Smart Community. We employed a mixed-methods approach, including the generation of synthetic multivariate time series data, data preprocessing, statistical correlation analysis, and the implementation of GraphSAGE, Graph Attention Networks (GAT), and Node2Vec for graph embedding. The ensemble learning framework integrated Decision Trees, Random Forests, Gradient Boosting Machines (XGBoost), and Neural Networks to enhance prediction accuracy. Our findings demonstrate that the proposed architecture maintains high performance under increased loads, with key sensor correlations effectively managed to optimize HVAC operations. The recommender system achieved a 51 % reduction in energy consumption of chilled water pumps and a 15 % increase in occupant satisfaction by providing personalized HVAC settings. These results highlight the significance of integrated system designs and data-driven strategies in developing intelligent building management solutions. The study contributes actionable insights into system scalability and user-centric environmental controls, paving the way for future research in real-world implementations and advanced analytical techniques.}
+}
+
+@article{WU2025129780,
+title = {Cross-modal feature symbiosis for personalized meta-path generation in heterogeneous networks},
+journal = {Neurocomputing},
+volume = {633},
+pages = {129780},
+year = {2025},
+issn = {0925-2312},
+doi = {https://doi.org/10.1016/j.neucom.2025.129780},
+url = {https://www.sciencedirect.com/science/article/pii/S0925231225004527},
+author = {Xiaotong Wu and Liqing Qiu and Weidong Zhao},
+keywords = {Heterogeneous graph neural networks, Meta-path generation, Reinforcement learning, Cross-modal information processing},
+abstract = {In heterogeneous graph neural networks (HGNNs), the capture of intricate relationships among various types of entities is essential to achieve advanced machine learning applications. Heterogeneous Information Networks (HINs), composed of interconnected multi-type nodes and edges, face significant challenges in managing semantic diversity and inherent heterogeneity. Traditional methods, which rely on manually designed meta-paths, struggle to adapt dynamically to personalized needs and often neglect the integration of structural and attribute features. To address these limitations, this paper introduces the Cross-Modal Symbiotic Meta-Path Generator (CSMPG) framework. CSMPG integrates two key modules: a Cross-Modal State Generation Module that encodes node structure and attribute information into task-aware state vectors and a Personalized Meta-Path Generation Module that dynamically generates and refines meta-paths using reinforcement learning. By leveraging downstream task feedback, CSMPG optimizes path selection to maximize performance. The framework effectively balances cross-modal feature integration and semantic diversity, uncovering impactful meta-paths that are often overlooked by traditional approaches. Experimental results demonstrate that CSMPG consistently enhances recommendation quality and significantly outperforms structure-only and predefined-path-based models.}
+}
+
+@article{AI2025129692,
+title = {An explainable recommendation algorithm based on content summarization and linear attention},
+journal = {Neurocomputing},
+volume = {630},
+pages = {129692},
+year = {2025},
+issn = {0925-2312},
+doi = {https://doi.org/10.1016/j.neucom.2025.129692},
+url = {https://www.sciencedirect.com/science/article/pii/S0925231225003649},
+author = {Jun Ai and Haolin Li and Zhan Su and Fengyu Zhao},
+keywords = {Content summary, Linear attention, Explainable recommendation algorithm, Vivaldi synthetic coordinate algorithm, Kolmogorov–Arnold neural network},
+abstract = {Recommendation algorithms can alleviate the problem of information explosion and cater to the needs of users to quickly lock in preferred items, promote business development, and have important theoretical significance and broad theoretical value. Explainable recommendation algorithms can not only complete recommendation tasks, but also generate recommendation explanations, so that users can more easily accept preferences. Research related to natural language text generation has promoted the progress of explainable text generation technology for recommendation systems. This paper proposes an explainable recommendation algorithm based on content summarization and linear attention mechanism. The model uses the keyword extraction algorithm to extract key information from user comment text as an important feature of subsequent text generation tasks, and further introduces linear Transformer to improve the training speed of the model and enhance its scalability. In addition, the model also uses the Vivaldi synthetic coordinate algorithm to deeply mine user and item features and uses the Kolmogorov–Arnold neural network model to reduce the error of predicted ratings. Compared with existing leading algorithms, the algorithm in this paper has achieved significant improvements in text generation and recommendation rating prediction. This paper reveals that applying the linear attention mechanism to the explainable recommendation algorithm can greatly reduce the training cost and improve scalability, and the fusion of synthetic coordinates and attention can further mine the hidden information of the recommendation system, effectively improving the performance of the recommendation algorithm.}
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

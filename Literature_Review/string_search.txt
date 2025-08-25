@@ -1,0 +1,4 @@
+[Full Text: "explainable recommendation"] OR [Full Text: "explaining recommendations"] 
+OR [[Full Text: "explanations"] AND [Full Text: "recommender systems"]]
+
+"explainable recommendation" OR "explaining recommendations" OR ("explanations" AND "recommender systems")
