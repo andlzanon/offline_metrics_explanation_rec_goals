@@ -8,7 +8,9 @@ There are three main analyses on this repository:
 - Knowledge Graphs files
 - Online User study files 
 
-## Organization
+For the offline experiments, please check [this repository](https://github.com/andlzanon/lod-personalized-recommender).
+
+## :card_file_box: Organization
 
 This repository has three main folders, one for each analysis that is reported on the paper:
 
@@ -27,7 +29,7 @@ This repository has three main folders, one for each analysis that is reported o
 - :file_folder: docs: Files containing users' response from the online trial
 - :page_facing_up: [Online Analysis.ipynb](./Online%20User%20Study/Online%20Analysis.ipynb.ipynb): Contains the analysis of the paper on the user responses
 
-## Reproduction
+## :package: Reproduction
 
 For the three analyses we used the following libraries:
 
@@ -55,6 +57,6 @@ To reproduce the environment then:
     ```conda install <lib>```
 
 
-## Citation
+## :speech_balloon: Citation
 
 Paper submited to ACM Transactions on Recommender Systems
